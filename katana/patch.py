@@ -93,8 +93,7 @@ class Patch():
         return out
 
     def to_tsl(self):
-
-        with open('katana/clean_patch.tsl') as tsl_raw:
+        with open(__file__ + '/../clean_patch.tsl') as tsl_raw:
             tsl = json.load(tsl_raw)
             tsl['patchList']['params'] = self.get_pedal_params()
 
