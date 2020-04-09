@@ -23,6 +23,7 @@ class GuitarSim(FXPedal):
                 high: int = 50,
                 level: int = 50,
                 low: int = 50,
+                **kwargs
     ):
         super().__init__('guitar_sim')
         self.type = _type

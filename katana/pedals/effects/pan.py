@@ -18,6 +18,7 @@ class Pan(FXPedal):
                 pos: int = 50,
                 rate: int = 40,
                 wave_shape: int = 0,
+                **kwargs
     ):
         super().__init__('pan')
         self.type = _type

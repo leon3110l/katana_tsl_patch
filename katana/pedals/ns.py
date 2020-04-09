@@ -13,7 +13,8 @@ class NoiseSuppressor(BasePedal):
                 on: bool = True,
                 detect: int = 0,
                 release: int = 30,
-                threshold: int = 30
+                threshold: int = 30,
+                **kwargs
     ):
         super().__init__('ns1', on)
         self.type = _type

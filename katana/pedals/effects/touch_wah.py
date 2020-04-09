@@ -2,12 +2,12 @@ from enum import IntEnum
 
 from ..pedal import FXPedal, FXType
 
-class TouchWahMode(Enum):
+class TouchWahMode(IntEnum):
     DEFAULT = 0
     LOW_PASS = 0
     BAND_PASS = 1
 
-class TouchWahPolarity(Enum):
+class TouchWahPolarity(IntEnum):
     DEFAULT = 0
     DOWN = 0
     UP = 1
@@ -24,6 +24,7 @@ class TouchWah(FXPedal):
                 freq: int = 35,
                 peak: int = 35,
                 sens: int = 50,
+                **kwargs
     ):
         super().__init__('t_wah')
         self.direct_mix = direct_mix

@@ -21,6 +21,7 @@ class Rotary2(FXPedal):
                 rate_fast: int = 50,
                 rate_slow: int = 50,
                 risetime: int = 50,
+                **kwargs
     ):
         super().__init__('rotary2')
         self.speed_select = _type

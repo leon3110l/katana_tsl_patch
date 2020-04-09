@@ -14,6 +14,7 @@ class HeavyOctave(FXPedal):
                 _1oct_level: int = 0,
                 _2oct_level: int = 0,
                 direct_mix: int = 0,
+                **kwargs
     ):
         super().__init__('heavy_oct')
         self.type = _type

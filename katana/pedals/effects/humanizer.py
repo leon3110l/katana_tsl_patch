@@ -20,6 +20,7 @@ class RingModulate(FXPedal):
                 sens: int = 50,
                 vowel1: int = 0,
                 vowel2: int = 2,
+                **kwargs
     ):
         super().__init__('humanizer')
         self.mode = _type

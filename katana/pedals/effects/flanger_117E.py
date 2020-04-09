@@ -15,6 +15,7 @@ class Flanger117E(FXPedal):
                 regen: int = 0,
                 speed: int = 0,
                 width: int = 0,
+                **kwargs
     ):
         super().__init__('flanger117e')
         self.type = _type

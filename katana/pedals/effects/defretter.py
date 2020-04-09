@@ -18,6 +18,7 @@ class Defretter(FXPedal):
                 reso:int = 50,
                 sens:int = 50,
                 tone:int = 50,
+                **kwargs
     ):
         super().__init__('defretter')
         self.type = _type

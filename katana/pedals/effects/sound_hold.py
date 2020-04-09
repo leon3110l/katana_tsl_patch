@@ -14,6 +14,7 @@ class SoundHold(FXPedal):
                 effect_level: int = 50,
                 hold: int = 0,
                 rise_time: int = 50,
+                **kwargs
     ):
         super().__init__('sound_hold')
         self.type = _type

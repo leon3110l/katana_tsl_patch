@@ -15,6 +15,7 @@ class Volume(BasePedal):
                 volume_curve: int = 0,
                 volume_max: int = 0,
                 volume_min: int = 0,
+                **kwargs
     ):
         super().__init__('foot_volume', on)
         self.type = _type

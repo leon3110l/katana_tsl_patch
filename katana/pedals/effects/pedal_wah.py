@@ -1,6 +1,5 @@
 from ..wah import WahSubType
 from ..pedal import FXType, FXPedal
-from enum import Enum
 
 class PedalWah(FXPedal):
 
@@ -13,6 +12,7 @@ class PedalWah(FXPedal):
                 pedal_max: int = 100,
                 pedal_min: int = 0,
                 pedal_pos: int = 100,
+                **kwargs
     ):
         super().__init__('sub_wah')
         self.type = _type

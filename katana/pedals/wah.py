@@ -40,8 +40,9 @@ class Wah(BasePedal):
                 wah_effect_level: int = 100,
                 wah_pedal_max: int = 100,
                 wah_pedal_min: int = 0,
-                wah_position: int = 100
+                wah_position: int = 100,
                 # wah_type: int = 0,
+                **kwargs
     ):
         super().__init__('pedal_fx', on)
 

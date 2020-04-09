@@ -19,6 +19,7 @@ class Limiter(FXPedal):
                 ratio: int = 8,
                 release: int = 20,
                 thresh: int = 24,
+                **kwargs
     ):
         super().__init__('limiter')
         self.type = _type

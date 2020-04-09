@@ -22,6 +22,7 @@ class DC30(FXPedal):
                 input_volume: int = 0,
                 output: int = 0,
                 tone: int = 0,
+                **kwargs
     ):
         super().__init__('dc30')
         self.selector = _type

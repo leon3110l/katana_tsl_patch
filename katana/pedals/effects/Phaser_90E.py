@@ -13,6 +13,7 @@ class Phaser90E(FXPedal):
                 _type : Phaser90EType = Phaser90EType.DEFAULT,
                 script: int = 0,
                 speed: int = 0,
+                **kwargs
     ):
         super().__init__('phaser90e')
         self.type = _type

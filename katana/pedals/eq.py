@@ -37,6 +37,7 @@ class EQ(BasePedal):
                 low_mid_gain: int = 20,
                 low_mid_q: int = 0,
                 position: int = 0,
+                **kwargs
     ):
         super().__init__('eq', on)
         self.type = _type

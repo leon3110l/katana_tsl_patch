@@ -23,6 +23,7 @@ class ToneModify(FXPedal):
                 level: int = 50,
                 low: int = 50,
                 reso: int = 50,
+                **kwargs
     ):
         super().__init__('tone_modify')
         self.type = _type

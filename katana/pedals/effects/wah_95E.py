@@ -1,7 +1,7 @@
 from ..pedal import FXType, FXPedal
-from enum import Enum
+from enum import IntEnum
 
-class Wah95EType(Enum):
+class Wah95EType(IntEnum):
     DEFAULT = 0
 
 class Wah95E(FXPedal):
@@ -15,6 +15,7 @@ class Wah95E(FXPedal):
                 pedal_max: int = 100,
                 pedal_min: int = 0,
                 pedal_pos: int = 100,
+                **kwargs
     ):
         super().__init__('wah95e')
         self.direct_mix = direct_mix

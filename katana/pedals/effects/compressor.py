@@ -22,6 +22,7 @@ class Compressor(FXPedal):
                 level: int = 50,
                 sustain: int = 50,
                 tone: int = 50,
+                **kwargs
     ):
         super().__init__('comp')
         self.type = _type

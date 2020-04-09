@@ -49,7 +49,8 @@ class Delay(BasePedal):
                 vtg_feedback_phase: int = 0,
                 vtg_filter: int = 0,
                 vtg_lpf: int = 0,
-                vtg_mod_sw: int = 0
+                vtg_mod_sw: int = 0,
+                **kwargs
     ):
         super().__init__('delay', on)
         self.type = _type

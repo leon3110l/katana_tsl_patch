@@ -22,6 +22,7 @@ class Phaser(FXPedal):
                 rate: int = 70,
                 reso: int = 0,
                 step_rate: int = 0,
+                **kwargs
     ):
         super().__init__('phaser')
         self.type = _type

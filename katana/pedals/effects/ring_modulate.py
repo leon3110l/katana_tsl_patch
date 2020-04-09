@@ -16,6 +16,7 @@ class RingModulate(FXPedal):
                 direct_mix: int = 100,
                 effect_level: int = 100,
                 freq: int = 50,
+                **kwargs
     ):
         super().__init__('ring_mod')
         self.mode = _type

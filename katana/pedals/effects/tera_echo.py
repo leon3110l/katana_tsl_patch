@@ -28,6 +28,7 @@ class TeraEcho(FXPedal):
                 hold: int = 0,
                 time: int = 50,
                 tone: int = 50,
+                **kwargs
     ):
         super().__init__('teraecho')
         self.mode = _type

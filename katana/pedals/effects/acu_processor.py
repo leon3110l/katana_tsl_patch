@@ -21,6 +21,7 @@ class AcousticProcessor(FXPedal):
                 middle: int = 50,
                 presence: int = 50,
                 treble: int = 50,
+                **kwargs
     ):
         super().__init__('ac_processor')
         self.type = _type

@@ -14,6 +14,7 @@ class SlowGear(FXPedal):
                 level: int = 60,
                 rise_time: int = 50,
                 sens: int = 45,
+                **kwargs
     ):
         super().__init__('slow_gear')
         self.type = _type

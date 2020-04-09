@@ -18,6 +18,7 @@ class SitarSim(FXPedal):
                 _type : SitarSimType = SitarSimType.DEFAULT,
                 direct_mix: int = 100,
                 level: int = 62,
+                **kwargs
     ):
         super().__init__('octave')
         self.range = _type

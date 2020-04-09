@@ -17,6 +17,7 @@ class Slicer(FXPedal):
                 pattern: int = 0,
                 rate: int = 50,
                 trigger_sens: int = 50,
+                **kwargs
     ):
         super().__init__('slicer')
         self.type = _type

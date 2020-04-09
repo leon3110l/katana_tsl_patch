@@ -45,7 +45,8 @@ class Booster(BasePedal):
                 effect_level: int = 56,
                 solo_level: int = 50,
                 solo_sw: int = 0,
-                tone: int = 46
+                tone: int = 46,
+                **kwargs
     ):
         super().__init__('od_ds', on)
         self.type = _type

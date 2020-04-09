@@ -21,6 +21,7 @@ class Chorus_2x2(FXPedal):
                 low_pre_delay: int = 3,
                 low_rate: int = 43,
                 xover_freq: int = 4,
+                **kwargs
     ):
         super().__init__('ring_mod')
         self.type = _type

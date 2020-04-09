@@ -9,6 +9,7 @@ class FX(BasePedal):
                 pedal: FXPedal = Tremolo(),
                 _type: FXType = FXType.DEFAULT,
                 on: bool = True,
+                **kwargs
     ):
         super().__init__('fx', on)
         self.fx_type = _type

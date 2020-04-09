@@ -15,6 +15,7 @@ class Tremolo(FXPedal):
                 level: int = 50,
                 rate: int = 85,
                 wave_shape: int = 70,
+                **kwargs
     ):
         super().__init__('tremolo')
         self.type = _type

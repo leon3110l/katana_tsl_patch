@@ -1,7 +1,7 @@
 from ..pedal import FXType, FXPedal
-from enum import Enum
+from enum import IntEnum
 
-class GraphicEQType(Enum):
+class GraphicEQType(IntEnum):
     DEFAULT = 0
 
 class GraphicEQ(FXPedal):
@@ -21,6 +21,7 @@ class GraphicEQ(FXPedal):
                 geq_62hz: int = 20,
                 geq_8khz: int = 20,
                 geq_level: int = 24,
+                **kwargs
     ):
         super().__init__('graphic_eq')
         self['125hz'] = geq_125hz

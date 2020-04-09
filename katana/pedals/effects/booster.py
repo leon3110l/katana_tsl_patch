@@ -14,7 +14,8 @@ class Booster(FXPedal):
                 effect_level: int = 56,
                 solo_level: int = 50,
                 solo_sw: int = 0,
-                tone: int = 46
+                tone: int = 46,
+                **kwargs
     ):
         super().__init__('sub_od_ds')
         self.type = _type

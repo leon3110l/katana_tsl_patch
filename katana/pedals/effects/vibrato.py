@@ -16,6 +16,7 @@ class Vibrato(FXPedal):
                 rate: int = 80,
                 rise_time: int = 0,
                 trigger: int = 1,
+                **kwargs
     ):
         super().__init__('vibrato')
         self.type = _type

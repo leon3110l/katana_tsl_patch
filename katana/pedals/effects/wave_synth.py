@@ -20,6 +20,7 @@ class WaveSynth(FXPedal):
                 filter_sens: int = 40,
                 reso: int = 30,
                 synth_level: int = 25,
+                **kwargs
     ):
         super().__init__('wave_synth')
         self.wave = _type

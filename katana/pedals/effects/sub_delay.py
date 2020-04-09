@@ -21,6 +21,7 @@ class SubDelay(FXPedal):
                 time_h: int = 3,
                 time_l: int = 16,
                 time: int = 400,
+                **kwargs
     ):
         super().__init__('sub_delay')
         self.type = _type

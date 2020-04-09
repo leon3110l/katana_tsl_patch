@@ -23,6 +23,7 @@ class OverTone(FXPedal):
                 lower_level: int = 100,
                 tone: int = 50,
                 upper_level: int = 100,
+                **kwargs
     ):
         super().__init__('overtone')
         self.type = _type

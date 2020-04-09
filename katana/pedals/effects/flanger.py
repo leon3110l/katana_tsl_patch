@@ -19,6 +19,7 @@ class Flanger(FXPedal):
                 rate: int = 31,
                 reso: int = 50,
                 separation: int = 0,
+                **kwargs
     ):
         super().__init__('flanger')
         self.type = _type

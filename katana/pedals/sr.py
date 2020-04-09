@@ -15,7 +15,8 @@ class SendReturn(BasePedal):
                 mode: int = 0,
                 position: int = 0,
                 return_level: int = 50,
-                send_level: int = 50
+                send_level: int = 50,
+                **kwargs
     ):
         super().__init__('send_return', on)
         self.type = _type

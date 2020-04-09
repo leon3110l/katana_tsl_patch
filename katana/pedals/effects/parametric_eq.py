@@ -1,7 +1,7 @@
 from ..pedal import FXType, FXPedal
-from enum import Enum
+from enum import IntEnum
 
-class ParametricEQType(Enum):
+class ParametricEQType(IntEnum):
     DEFAULT = 0
 
 class ParametricEQ(FXType):
@@ -22,6 +22,7 @@ class ParametricEQ(FXType):
                 low_mid_gain: int = 20,
                 low_mid_q: int = 0,
                 position: int = 0,
+                **kwargs
     ):
         super().__init__('parametric_eq')
         self.type = _type

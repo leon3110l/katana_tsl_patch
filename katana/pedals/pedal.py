@@ -83,6 +83,7 @@ class FXPedal(Pedal):
 
     def __init__(self,
                 tsl_string: str,
+                **kwargs
     ):
         super().__init__(tsl_string, True)
         del self.on_off

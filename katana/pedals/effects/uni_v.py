@@ -14,7 +14,8 @@ class UniV(FXPedal):
                 depth: int = 60,
                 level: int = 100,
                 rate: int = 70,
-                
+                ,
+                **kwargs
     ):
         super().__init__('uni_v')
         self.type = _type

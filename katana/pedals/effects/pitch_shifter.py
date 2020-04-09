@@ -29,6 +29,7 @@ class PitchShifter(FXPedal):
                 ps2pre_dly_h: int = 0,
                 ps2pre_dly_l: int = 0,
                 ps2pre_dly: int = 0,
+                **kwargs
     ):
         super().__init__('pitch_shifter')
         self.voice = _type

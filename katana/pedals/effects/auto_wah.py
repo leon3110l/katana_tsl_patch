@@ -2,7 +2,7 @@ from enum import IntEnum
 
 from ..pedal import FXPedal, FXType
 
-class AutoWahMode(Enum):
+class AutoWahMode(IntEnum):
     DEFAULT = 0
     LOW_PASS = 0
     BAND_PASS = 1
@@ -19,6 +19,7 @@ class AutoWah(FXPedal):
                 freq: int = 35,
                 peak: int = 50,
                 rate: int = 50,
+                **kwargs
     ):
         super().__init__('auto_wah')
         self.mode = mode
