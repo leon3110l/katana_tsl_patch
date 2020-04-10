@@ -1,3 +1,39 @@
-from .ac_guitar_sim import ACGuitarSim, ACGuitarSimType
-from .acu_processor import AcousticProcessor, AcousticProcessorType
-from .auto_wah import AutoWah, AutoWahMode
+from .ac_guitar_sim import ACGuitarSimType, ACGuitarSim
+from .acu_processor import AcousticProcessorType, AcousticProcessor
+from .auto_wah import AutoWahMode, AutoWah
+from .booster import Booster
+from .chorus import Chorus_2x2Type, Chorus_2x2
+from .compressor import CompressorType, Compressor
+from .dc_30 import DC30Type, DC30
+from .defretter import DefretterType, Defretter
+from .flanger import FlangerType, Flanger
+from .flanger_117E import Flanger117EType, Flanger117E
+from .graphic_eq import GraphicEQType, GraphicEQ
+from .guitar_sim import GuitarSimType, GuitarSim
+from .harmonist import HarmonistType, Harmonist
+from .heavy_octave import HeavyOctaveType, HeavyOctave
+from .humanizer import RingModulateType, RingModulate
+from .limiter import LimiterType, Limiter
+from .over_tone import OverToneType, OverTone
+from .pan import PanType, Pan
+from .parametric_eq import ParametricEQType, ParametricEQ
+from .pedal_wah import PedalWah
+from .phaser import PhaserType, Phaser
+from .phaser_90E import Phaser90EType, Phaser90E
+from .pitch_shifter import PitchShifterType, PitchShifter
+from .ring_modulate import RingModulateType, RingModulate
+from .rotary_1 import RotaryType, Rotary
+from .rotary_2 import Rotary2Type, Rotary2
+from .sitar_sim import SitarSimType, SitarSim
+from .slicer import SlicerType, Slicer
+from .slow_gear import SlowGearType, SlowGear
+from .sound_hold import SoundHoldType, SoundHold
+from .sub_delay import SubDelayType, SubDelay
+from .tera_echo import TeraEchoType, TeraEcho
+from .tone_modify import ToneModifyType, ToneModify
+from .touch_wah import TouchWahMode, TouchWahPolarity, TouchWah
+from .tremolo import TremoloType, Tremolo
+from .uni_v import UniVType, UniV
+from .vibrato import VibratoType, Vibrato
+from .wah_95E import Wah95EType, Wah95E
+from .wave_synth import WaveSynthType, WaveSynth

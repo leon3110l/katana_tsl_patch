@@ -1,5 +1,5 @@
 from ..wah import WahSubType
-from ..pedal import FXType, FXPedal
+from .. import FXType, FXPedal
 
 class PedalWah(FXPedal):
 

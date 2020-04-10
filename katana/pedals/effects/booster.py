@@ -1,5 +1,5 @@
-from ..booster import BoosterType
-from ..pedal import FXType, FXPedal
+from .. import BoosterType
+from .. import FXType, FXPedal
 
 class Booster(FXPedal):
 

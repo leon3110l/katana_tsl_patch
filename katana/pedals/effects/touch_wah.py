@@ -1,6 +1,6 @@
 from enum import IntEnum
 
-from ..pedal import FXPedal, FXType
+from .. import FXPedal, FXType
 
 class TouchWahMode(IntEnum):
     DEFAULT = 0

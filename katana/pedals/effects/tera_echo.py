@@ -1,6 +1,6 @@
 from enum import IntEnum
 
-from ..pedal import FXPedal, FXType
+from .. import FXPedal, FXType
 
 class TeraEchoType(IntEnum):
     DEFAULT = 1

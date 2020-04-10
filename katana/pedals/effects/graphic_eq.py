@@ -1,4 +1,4 @@
-from ..pedal import FXType, FXPedal
+from .. import FXType, FXPedal
 from enum import IntEnum
 
 class GraphicEQType(IntEnum):

@@ -1,10 +1,10 @@
-from ..pedal import FXType, FXPedal
+from .. import FXType, FXPedal
 from enum import IntEnum
 
 class ParametricEQType(IntEnum):
     DEFAULT = 0
 
-class ParametricEQ(FXType):
+class ParametricEQ(FXPedal):
 
     FX_TYPE = FXType.PARAMETRIC_EQ
 

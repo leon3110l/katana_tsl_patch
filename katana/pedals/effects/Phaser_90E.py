@@ -1,6 +1,6 @@
 from enum import IntEnum
 
-from ..pedal import FXPedal, FXType
+from .. import FXPedal, FXType
 
 class Phaser90EType(IntEnum):
     DEFAULT = 0

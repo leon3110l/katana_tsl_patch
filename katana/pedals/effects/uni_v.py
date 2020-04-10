@@ -1,6 +1,6 @@
 from enum import IntEnum
 
-from ..pedal import FXPedal, FXType
+from .. import FXPedal, FXType
 
 class UniVType(IntEnum):
     DEFAULT = 0
@@ -14,7 +14,6 @@ class UniV(FXPedal):
                 depth: int = 60,
                 level: int = 100,
                 rate: int = 70,
-                ,
                 **kwargs
     ):
         super().__init__('uni_v')
